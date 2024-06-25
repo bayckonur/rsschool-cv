@@ -1,4 +1,4 @@
-# __[rsschool-cv](https://www.youtube.com)__
+# __[rsschool-cv](https://rs.school/)__
 
 # __Aliaksandr Baiko__
 
