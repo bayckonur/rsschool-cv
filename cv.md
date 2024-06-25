@@ -17,7 +17,7 @@ I enrolled in the Belarusian State Technological University for mechatronic syst
 - JavaScript (Learning in progress);
 - Git.
 
-- ## __Code:__
+## __Code:__
 
 ```
 function multiply(a, b){
