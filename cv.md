@@ -31,5 +31,6 @@ function multiply(a, b){
 - __University:__ Belarusian National Technical University, Mechatronic systems - Unfinished higher education;
 - __Courses:__ RS School JS/FE Pre-School 2024Q2.
 
-## __English__
-__A2__ (Previously I was at B2 level, but due to lack of practice, my proficiency has dropped. Currently, I am studying at a B1 level.)
+## __Languages__
+- English:A2__ (Previously I was at B2 level, but due to lack of practice, my proficiency has dropped. Currently, I am studying at a B1 level.)
+- Russian: Native speaker.
