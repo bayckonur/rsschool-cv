@@ -1,0 +1,176 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+.offset-m {
+  margin: 0 80px;
+}
+.offset-l {
+  margin: 0 110px;
+}
+body {
+  margin: 0;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 12.5px;
+  line-height: 16px;
+}
+.wrapper__font-title {
+  margin-bottom: 0;
+  font-family: "Barlow Condensed";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+.wrapper__font-text {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.5px;
+  line-height: 16px;
+  color: #505050;
+}
+a {
+  font-size: 16px;
+  text-decoration: none;
+  transition: font-size 0.2s ease;
+}
+a:hover {
+  font-size: 18px;
+  color: rgb(54, 150, 167);
+}
+ul {
+  padding-inline-start: 0px;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.container {
+  width: 812px;
+  margin: 0 auto;
+}
+.header {
+  background-color: #000000;
+  background-image: url("images/Rectangle\ 2.png");
+  background-position-x: right;
+  background-repeat: no-repeat;
+  height: 220px;
+}
+.header__inner {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+}
+.header__title-name {
+  text-transform: uppercase;
+  margin: 0;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+  color: #ffffff;
+  font-style: normal;
+}
+.header__title-spec {
+  text-align: center;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 25px;
+  color: #ffffff;
+  color: white;
+}
+.header__image-picture {
+  max-width: 214px;
+  max-height: 214px;
+  background-repeat: no-repeat;
+  border-radius: 125px;
+  border: 3px solid #000000;
+}
+.links {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.links__items {
+  margin-bottom: 3px;
+  font-family: "Barlow Condensed";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+.links__list {
+  padding-inline-start: 0px;
+}
+.links__items-down {
+  margin: 0;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.5px;
+  line-height: 16px;
+  color: #505050;
+}
+.wrapper__educ-skill {
+  width: 550px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.wrapper__education {
+  width: 255px;
+}
+.wrapper__education-text {
+  color: #000000;
+  margin-block-end: 2px;
+}
+.wrapper__education-text-down {
+  margin-block-start: 0;
+}
+.wrapper__skill {
+  width: 100px;
+}
+.wrapper__skill {
+  width: 100px;
+}
+.wrapper__code-pre {
+  border: 1px solid #505050;
+  border-radius: 50px;
+}
+.wrapper__lang-tools {
+  width: 550px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.wrapper__tools {
+  width: 100px;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #000000;
+  height: 50px;
+}
+.footer__logo-img {
+  width: 35px;
+  height: auto;
+  transition: transform 0.2s ease;
+}
+.footer__logo-img:hover {
+  transform: scale(1.2);
+}
+.footer__year-text {
+  font-size: 17px;
+  color: #ffffff;
+}
