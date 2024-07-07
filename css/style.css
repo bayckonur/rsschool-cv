@@ -139,3 +139,19 @@ a {
 .wrapper__skill {
   width: 100px;
 }
+.wrapper__skill {
+  width: 100px;
+}
+.wrapper__code-pre {
+  border: 1px solid #505050;
+  border-radius: 50px;
+}
+.wrapper__lang-tools {
+  width: 550px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.wrapper__tools {
+  width: 100px;
+}

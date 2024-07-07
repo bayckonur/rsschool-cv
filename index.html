@@ -114,5 +114,45 @@
           </ul>
         </div>
       </section>
+      <section class="wrapper__code offset-m">
+        <h2 class="wrapper__code-tittle wrapper__font-title">Code Example</h2>
+      <pre class="wrapper__code-pre">
+        <code class="wrapper_code-example">
+        function factorial(n) {
+        if (typeof n !== 'number' || !Number.isInteger(n) || n < 0) {
+            throw new Error('The factorial function accepts only non-negative integers.');
+        }
+        
+        if (n === 0) {
+            return 1;
+        }
+        
+        return n * factorial(n - 1);
+      }
+      
+      try {
+          console.log(factorial(5));
+          console.log(factorial(0));
+      } catch (error) {
+          console.error(error.message);
+      }</code>
+      </pre>
+      <div class="wrapper__lang-tools">
+      <div class="wrapper__languages">
+        <h2 class="wrapper__languages-title wrapper__font-title">Languages</h2>
+        <ul class="wrapper__languages-items wrapper__font-text">
+          <li class="wrapper__languages-text">Russian Native</li>
+          <li class="wrapper__languages-text">English A2</li>
+          <li class="wrapper__languages-text">Polish A2</li>
+        </ul>
+      </div> <div class="wrapper__tools">
+        <h2 class="wrapper__tools-title wrapper__font-title">Tools</h2>
+        <ul class="wrapper__tools-items wrapper__font-text">
+          <li class="wrapper__tools-text">VS Code</li>
+          <li class="wrapper__tools-text">Figma</li>
+        </ul>
+      </div>
+    </div>
+      <section>
   </body>
 </html>
