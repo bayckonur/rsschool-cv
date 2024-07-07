@@ -3,3 +3,88 @@
 *::before {
   box-sizing: border-box;
 }
+body {
+  margin: 0;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 12.5px;
+  line-height: 16px;
+}
+.wrapper__font-title {
+  margin-bottom: 0;
+  font-family: "Barlow Condensed";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+.wrapper__font-text {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.5px;
+  line-height: 16px;
+  color: #505050;
+}
+a {
+  font-size: 16px;
+  text-decoration: none;
+  transition: font-size 0.2s ease;
+}
+a:hover {
+  font-size: 18px;
+  color: rgb(54, 150, 167);
+}
+ul {
+  padding-inline-start: 0px;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.container {
+  width: 812px;
+  margin: 0 auto;
+}
+.header {
+  background-color: #000000;
+  background-image: url(/images/Rectangle\ 2.png);
+  background-position-x: right;
+  background-repeat: no-repeat;
+  height: 220px;
+}
+.header__inner {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+}
+.header__title-name {
+  text-transform: uppercase;
+  margin: 0;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+  color: #ffffff;
+  font-style: normal;
+}
+.header__title-spec {
+  text-align: center;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 25px;
+  color: #ffffff;
+  color: white;
+}
+.header__image-picture {
+  max-width: 214px;
+  max-height: 214px;
+  background-repeat: no-repeat;
+  border-radius: 125px;
+  border: 3px solid #000000;
+}
