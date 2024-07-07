@@ -155,3 +155,22 @@ a {
 .wrapper__tools {
   width: 100px;
 }
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #000000;
+  height: 50px;
+}
+.footer__logo-img {
+  width: 35px;
+  height: auto;
+  transition: transform 0.2s ease;
+}
+.footer__logo-img:hover {
+  transform: scale(1.2);
+}
+.footer__year-text {
+  font-size: 17px;
+  color: #ffffff;
+}
