@@ -120,3 +120,22 @@ a {
   line-height: 16px;
   color: #505050;
 }
+.wrapper__educ-skill {
+  width: 550px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.wrapper__education {
+  width: 255px;
+}
+.wrapper__education-text {
+  color: #000000;
+  margin-block-end: 2px;
+}
+.wrapper__education-text-down {
+  margin-block-start: 0;
+}
+.wrapper__skill {
+  width: 100px;
+}
